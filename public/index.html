@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompressEase - Image & Video Compression</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">OptiVisio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#compress">Compress</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Compress Your Media with OptiVisio</h1>
+            <p>Reduce file sizes without compromising quality</p>
+            <a href="#compress" class="cta-button">Get Started</a>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-image"></i>
+                    <h3>Image Compression</h3>
+                    <p>Compress PNG, JPEG, and WebP images</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Compression</h3>
+                    <p>Reduce size of MP4, AVI, and MOV files</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h3>Fast Processing</h3>
+                    <p>Quick compression for all your media</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-lock"></i>
+                    <h3>Secure</h3>
+                    <p>Your files are deleted after compression</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="compress">
+            <h2>Compress Your Files</h2>
+            <div id="drop-area">
+                <p>Drag & Drop files here or</p>
+                <input type="file" id="fileElem" multiple accept="image/*,video/*">
+                <label class="button" for="fileElem">Select Files</label>
+            </div>
+            <div id="gallery"></div>
+            <button id="compressBtn" class="cta-button">Compress Files</button>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2024. All rights reserved.</p>
+        <a href="https://github.com/bramans" style="color: white; display: inline-block; margin-right: 10px;">GitHub</a>
+        <a href="https://www.linkedin.com/in/ibrahim-mansour-364097222/" style="color: white; display: inline-block;">LinkedIn</a>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
